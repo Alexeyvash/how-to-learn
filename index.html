@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Научиться учиться</title>
   </head>
+  <!--Начало страницы-->
   <body class="content">
     <div class="page">
+      <!--Блок хэдер-->
       <header class="header">
         <img
           src="./images/logo_place_header.svg"
@@ -28,24 +29,26 @@
         />
         <div class="header__square-pic"></div>
       </header>
+      <!--Блок мэин-->
       <main class="content">
+        <!--Секция дискрипшн-->
         <section class="discription">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
-              <p class="two-columns__paragpah">
+              <p class="two-columns__paragraph">
                 Ни в школе, ни в институте нас не учат тому, как правильно
                 изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
                 тренируемся решать однообразные задачи, чтобы лучше сдать тест,
                 но часто в итоге это не дает нам реального знания. Зубрежка
                 быстро выветривается и не приносит пользы.
               </p>
-              <p class="two-columns__paragpah">
+              <p class="two-columns__paragraph">
                 <span class="two-columns__span-accent">Вывод:</span> учиться
                 тоже нужно уметь, но почему-то этому мало где учат. Что с этим
                 делать?
               </p>
-              <p class="two-columns__paragpah">
+              <p class="two-columns__paragraph">
                 Конкретные техники и упражнения помогают изменить подход к
                 обучению, сделать его эффективным и захватывающим. Эти же
                 техники применяются на примере обучения в Практикуме.
@@ -53,7 +56,7 @@
             </div>
           </div>
         </section>
-
+        <!--Секция тихники-->
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -120,41 +123,33 @@
             </li>
           </ul>
         </section>
-
+        <!--Секция видео-->
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/5MgBikgcWnY"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/arj7oStGLkU"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe"
+            ></iframe>
+            <iframe
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe"
+            ></iframe>
           </div>
         </section>
-
+        <!--Секция Барбара Оаклей-->
         <section class="oakley">
           <div class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
-              <p class="two-columns__paragpah">
+              <p class="two-columns__paragraph">
                 С детства Барбаре не давалась математика. Она считала себя
                 законченным гуманитарием, причём далеко не самым умным. В армии
                 она изучала русский язык, чтобы получить надбавку, да так
@@ -167,13 +162,13 @@
             </div>
           </div>
         </section>
-
+        <!--Секция Фейнман-->
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть</p>
           <a href="#" class="feynman__link">Подробнее &rarr;</a>
         </section>
-
+        <!--Секция диджитс-->
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
           <p class="section-subtitle">Про учёбу и мозг</p>
@@ -222,7 +217,7 @@
             </li>
           </ul>
         </section>
-
+        <!--Секция Кхан-->
         <section class="khan">
           <div class="khan__container">
             <h3 class="khan__author">Салман Хан</h3>
@@ -246,7 +241,7 @@
             </div>
           </div>
         </section>
-
+        <!--Секция Кауфман-->
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
@@ -318,7 +313,7 @@
           </ul>
           <div class="kaufman__triangle"></div>
         </section>
-
+        <!--Секция ресурсы-->
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">
@@ -360,7 +355,7 @@
           </ul>
         </section>
       </main>
-
+      <!--Блок футер-->
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
